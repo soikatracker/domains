@@ -76,25 +76,25 @@
         <div id="bron" class="main__reservation">
             <div class="forms">
                 <p class="nammm">БРОНЬ</p>
-                <form action="">
+                <form action="register.php" method="post">
                     <input type="text" name="username" placeholder="Ваше имя">
                     <input type="tel" name="tel" placeholder="Номер телефона">
                     <input type="number" id="person" name="person" placeholder="Количество персон">
 
-                    <select name="" id="">
-                        <option id="" value="">Выберите дату</option>
-                        <option id="today" value=""></option>   <!--седня-->
-                        <option id="todayNext" value=""></option>   <!--завтра-->
-                        <option id="todayNextNext" value=""></option>   <!--послезавтра-->
+                    <select name="date" id="">
+                        <option  id="" value="">Выберите дату</option>
+                        <option id="today" value="12"></option>   <!--седня-->
+                        <option id="todayNext" value="13"></option>   <!--завтра-->
+                        <option id="todayNextNext" value="14"></option>   <!--послезавтра-->
                     </select>
-                    <select name="" id="">
+                    <select name="time" id="">
                         <option id="time1" value="">Выберите время</option> 
-                        <option id="time1" value="">11:00 - 13:00</option>  
-                        <option id="time2" value="">13:00 - 15:00</option>  
-                        <option id="time3" value="">15:00 - 18:00</option>  
-                        <option id="time4" value="">18:00 - 20:00</option>  
+                        <option id="time1" value="11:00">11:00 - 13:00</option>  
+                        <option id="time2" value="13:00">13:00 - 15:00</option>  
+                        <option id="time3" value="15:00">15:00 - 18:00</option>  
+                        <option id="time4" value="16:00">18:00 - 20:00</option>  
                     </select>
-                    <button class="bronivicxhok">Забронировать</button>
+                    <button type="submit" class="bronivicxhok">Забронировать</button>
                 </form>
             </div>
             <div class="maps">
