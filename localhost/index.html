@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ресторан "фотосинтез"</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header__nav">
+            <a href="#" class="header__nav__links">Главная</a>
+            <a href="#menu" class="header__nav__links">Меню</a>
+            <a href="#bron" class="header__nav__links">Забронировать</a>
+        </div>
+        <div class="header__about">
+            <p class="header__about__naming">О РЕСТОРАНЕ</p>
+            <p class="header__about__p">Расположенный в самом сердце города, наш ресторан сочетает в себе элегантный интерьер, высокий уровень сервиса и непревзойдённые гастрономические впечатления. Мы предлагаем гостям авторскую кухню, в которой гармонично переплетаются традиционные рецепты и современные тренды. <br><br>
+            Интерьер ресторана выполнен в стиле современной классики: мягкое освещение, натуральные материалы и панорамные окна создают атмосферу уюта и роскоши. В тёплое время года гости могут насладиться трапезой на летней террасе с видом на город. <br><br>
+            Ждём вас в  ресторане «Фотосинтез» — где каждая деталь создана для вашего удовольствия!
+            </p>
+        </div>
+    </header>
+    <main>
+        <p id="menu" class="main__menuName">меню</p>
+        <div class="main__menu">
+            
+            <div class="carts">
+                <img class="main__menu__img" src="/img/food1.png" alt="">
+                <p>Кока кола.................100р</p>
+            </div>
+
+            <div class="carts">
+                <img class="main__menu__img" src="/img/food2.png" alt="">
+                <p>Пиперине.................205р</p>
+            </div>
+
+            <div class="carts">
+                <img class="main__menu__img" src="/img/food3.png" alt="">
+                <p>Чебупицца.................503р</p>
+            </div>
+
+            <div class="carts"> 
+                <img class="main__menu__img" src="/img/food4.png" alt="">
+                <p>Фарш.................194р</p>
+            </div>
+            <!--  -->
+        </div>
+        <div class="main__menu">
+
+            <div class="carts">
+                <img class="main__menu__img" src="/img/food5.png" alt="">
+                <p>Колбаса.................432р</p>
+            </div>
+
+            <div class="carts">
+                <img class="main__menu__img" src="/img/food6.png" alt="">
+                <p>Майонез.................404р</p>
+            </div>
+
+            <div class="carts">
+                <img class="main__menu__img" src="/img/food7.png" alt="">
+                <p>Няшка.................555р</p>
+            </div>
+            
+            <div class="carts">
+                <img class="main__menu__img" src="/img/food8.png" alt="">
+                <p>Милашка.................1р</p>
+            </div>
+
+        </div>
+        
+        <div id="bron" class="main__reservation">
+            <div class="forms">
+                <p class="nammm">БРОНЬ</p>
+                <form action="">
+                    <input type="text" name="username" placeholder="Ваше имя">
+                    <input type="tel" name="tel" placeholder="Номер телефона">
+                    <input type="number" id="person" name="person" placeholder="Количество персон">
+
+                    <select name="" id="">
+                        <option id="" value="">Выберите дату</option>
+                        <option id="today" value=""></option>   <!--седня-->
+                        <option id="todayNext" value=""></option>   <!--завтра-->
+                        <option id="todayNextNext" value=""></option>   <!--послезавтра-->
+                    </select>
+                    <select name="" id="">
+                        <option id="time1" value="">Выберите время</option> 
+                        <option id="time1" value="">11:00 - 13:00</option>  
+                        <option id="time2" value="">13:00 - 15:00</option>  
+                        <option id="time3" value="">15:00 - 18:00</option>  
+                        <option id="time4" value="">18:00 - 20:00</option>  
+                    </select>
+                    <button class="bronivicxhok">Забронировать</button>
+                </form>
+            </div>
+            <div class="maps">
+                <img src="/img/diagrama.png" alt="">
+                <button id="btn1" class="btn-1">1</button>
+                <button id="btn2" class="btn-2">2</button>
+                <button id="btn3" class="btn-3">3</button>
+                <button id="btn4" class="btn-4">4</button>
+                <button id="btn5" class="btn-5">5</button>
+                <button id="btn6" class="btn-6">6</button>
+                <button id="btn7" class="btn-7">7</button>
+                <button id="btn8" class="btn-8">8</button>
+                <button id="btn9" class="btn-9">9</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Адрес: ул.Малиновая д.763</p>
+            <p>Телефон: +7 023 431 23 23</p>
+            <p>Email: info@fotosintez.rest</p>
+            <p>Сайт: www.fotosintez.rest</p>
+        </div>
+
+        <div>
+            <p>Пн-Чт: 12:00 – 23:00</p>
+            <p>Пт-Сб: 12:00 – 00:00</p>
+            <p>Вс: 12:00 – 22:00</p>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,215 @@
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+header{
+   background-image: url(img/bg.png); 
+   width: auto;
+   height: 760px;
+   color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.header__nav{
+    display: flex;
+    justify-content: center;
+}
+.header__nav__links{
+    font-size: 16px;
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+    font-weight: 800;
+    transition: transform 0.3s ease;
+}
+.header__nav__links:hover{
+    transform: scale(1.2); 
+}
+.header__about__naming{
+    letter-spacing: 35px;
+    font-weight: 800;
+    font-size: 32px;
+    margin-left: 73px;
+    margin-top: 143px;
+}
+.header__about__p{
+    margin-left: 73px;
+    width: 571px;
+    font-weight: 500;
+}
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 90px;
+}
+.main__menuName{
+    text-align: center;
+    margin-top: 89px;
+    font-weight: 800;
+    letter-spacing: 20px;
+    font-size: 18px;
+    margin-left: 90px;
+}
+.main__menu{
+    height: auto;
+    margin-top: 75px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    gap: 121px;
+}
+.main__menu__img{
+    margin-bottom: 10px;
+}
+button{
+    outline: none; 
+    border: 0;
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #1b1f26d3;
+    border-radius: 10px;
+    background: #1b1f26d3;
+    color: white;
+}
+.main__reservation{
+    display: flex;
+    margin-top: 115px;
+    height: 578px;
+    margin-bottom: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.carts{
+    transition: transform 0.3s ease;
+}
+.carts:hover{
+    transform: scale(1.2); 
+}
+.forms{
+    width: 376px;
+    text-align: center;
+}
+input{
+    border: 0.1px solid black;
+    text-align: center;
+    width: 248px;
+    height: 37px;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.nammm{
+    font-weight: 800;
+    letter-spacing: 20px;
+    font-size: 18px;
+    margin-left: 18px;
+}
+
+footer{
+    background: #1B1B1B;
+    height: 350px;
+}
+.maps{
+    position: relative;
+}
+
+.btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6, .btn-7, .btn-8, .btn-9 {
+    position: absolute;
+    opacity: 0; 
+    transition: opacity 0.5s ease, transform 0.3s ease; 
+    transform: scale(1); 
+}
+
+.btn-1 { left: 21px; top: 85px; }
+.btn-2 { left: 191px; top: 74px; }
+.btn-3 { left: 402px; top: 73px; }
+.btn-4 { left: 618px; top: 71px; }
+.btn-5 { left: 790px; top: 75px; }
+.btn-6 { left: 81px; bottom: 83px; }
+.btn-7 { left: 734px; bottom: 85px; }
+.btn-8 { left: 735px; top: 286px; }
+.btn-9 { left: 498px; top: 289px; }
+
+.btn-visible {
+    opacity: 1; 
+    display: block; 
+}
+
+.btn-hidden {
+    opacity: 0; 
+    display: none; 
+}
+
+.btn-1:hover, .btn-2:hover, .btn-3:hover, 
+.btn-4:hover, .btn-5:hover, .btn-6:hover, 
+.btn-7:hover, .btn-8:hover, .btn-9:hover {
+    transform: scale(1.35); 
+}
+.bronivicxhok{
+    transition: opacity 0.5s ease, transform 0.3s ease; 
+    transform: scale(1); 
+    outline: none; 
+    border: 0;
+    background: none;
+    width: 248px;
+    height: 37px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 10px;
+    background: #000000d3;
+    opacity: 100%;
+    color: white;
+    margin-top: 20pxs;
+    font-size: 18px;
+    font-weight: 400;
+}
+.bronivicxhok:hover{
+    transform: scale(1.15); 
+}
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;  /* Плавная прокрутка */
+}
+option, select{
+    border: 0.1px solid black;
+    text-align: center;
+    width: 248px;
+    height: 37px;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.active{
+    background: #a3cdfd;
+    transition: background 0.5s ease;
+    transform: scale(1.35); 
+    border: 0;
+}
